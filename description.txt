@@ -1,0 +1,7 @@
+Loan Amortization and Loan Amortization Schedule
+
+**Loan Amortization**
+Loan amortization is the process by which a borrower makes fixed periodic payments and gradually pays down the loan principal over time.
+
+**Loan Amortization Schedule**
+A loan amortization schedule is a record of a borrower's payments, including the interest and principal portions of each payment. The schedule shows the remaining loan balance after each payment.

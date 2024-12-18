@@ -1,0 +1,124 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fc;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  color: #004aad;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+select {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 200px;
+  padding: 10px;
+  background-color: #004aad;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00337a;
+}
+
+#PaymentSection {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e8f0fe;
+  border-radius: 10px;
+  border: 1px solid #004aad;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#PaymentSection h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #004aad;
+  font-weight: 600;
+}
+
+#monthlyPayment, #yearlyPayment {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00337a;
+  display: none;
+}
+
+#results {
+  display: none;
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #004aad;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
